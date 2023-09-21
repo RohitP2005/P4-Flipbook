@@ -1,0 +1,51 @@
+.book{
+    background-color: #494747;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    overflow: scroll;
+}
+.book > div{
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+.pages{
+    width: 50%;
+    height: 60%;
+    display: flex;
+}
+.pages > div{
+    box-shadow: 1.250em 1.250em 0.438em rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: 120%;
+    background-size: cover;
+}
+.navbar{
+    background-color: #6f42c1;
+    box-shadow: 0px 15px 9px rgba(0, 0, 0, 0.2);
+}
+.img{
+  height: 40px;
+  margin-right: 10px;
+}
+.pg{
+  margin-right: 23%;
+  display: flex;
+  flex-direction: row;
+}
+form{
+  margin: 0px 8px ;
+}
+
+.d-flex{
+    width: 70px;
+}
+input{
+  text-align: center;
+    margin: auto;
+}
+span{
+  color: white;
+  text-shadow: 2px 2px black;
+}
