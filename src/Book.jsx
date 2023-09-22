@@ -54,8 +54,8 @@ export default function Book() {
                     <button className="btn btn-outline-light btn-lg" type="submit" onClick={prev}><i className="bi bi-arrow-left"></i></button>
                 </div>
                 <div className="pages">
-                    <div className="pg-l" style={{ backgroundImage: `url(../imgs/2/2-${l}.jpg)` }}></div>
-                    <div className="pg-r" style={{ marginLeft: '10px', backgroundImage: `url(../imgs/2/2-${r}.jpg)` }}></div>
+                    <div className="pg-l" style={{ backgroundImage: `url(/imgs/2/2-${l}.jpg)` }}></div>
+                    <div className="pg-r" style={{ marginLeft: '10px', backgroundImage: `url(/imgs/2/2-${r}.jpg)` }}></div>
 
 
                 </div>
