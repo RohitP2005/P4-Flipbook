@@ -79,6 +79,7 @@ span{
 
 .container-flid{
   margin-left: 2%;
+  width: 100vw;
   flex: 0 0 100%;
   display: flex;
   justify-content: center;

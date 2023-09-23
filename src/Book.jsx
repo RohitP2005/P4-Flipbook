@@ -34,7 +34,7 @@ export default function Book() {
                     <a className="navbar-brand" href="http://www.sbioaschooltrichy.org/">
                         <img src={myImage} className='img' alt="" />
                         <span>
-                            SBIOA Senior Secondary School Trichy
+                            SBIOA Senior Secondary School
                         </span>
                     </a>
                 </div>
