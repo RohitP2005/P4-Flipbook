@@ -60,13 +60,13 @@ export default function Book() {
                 </div>
                 <div className="pages">
                     <div className="ipgs">
-                        <img className='pgimg' src={`/imgs/2/2-${l}.jpg`} alt="" />
+                        <img className='pgimg' src={`/imgs/2/tinified/2-${l}.jpg`} alt="" loading='lazy'/>
                     </div>
                     <div className="ipgs-m" >
-                        <img className='pgimg' src={`/imgs/2/2-${m}.jpg`} alt="" />
+                        <img className='pgimg' src={`/imgs/2/2-${m}.jpg`} alt="" loading='lazy'/>
                     </div>
                     <div className="ipgs">
-                        <img className='pgimg' src={`/imgs/2/2-${r}.jpg`} alt="" />
+                        <img className='pgimg' src={`/imgs/2/tinified/2-${r}.jpg`} alt="" loading='lazy'/>
                     </div>
 
                 </div>
