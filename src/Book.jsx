@@ -6,15 +6,18 @@ export default function Book() {
 
     const [l, setl] = useState(1);
     const [r, setr] = useState(2);
+    const [m, setm] = useState(2);
     const next = () => {
         if (r < 10) {
             setl(() => l + 2)
+            setm(() => m + 1)
             setr(() => r + 2)
         }
     }
     const prev = () => {
         if (l > 1) {
             setl(() => l - 2)
+            setm(() => m - 1)
             setr(() => r - 2)
         }
     }
@@ -58,6 +61,9 @@ export default function Book() {
                 <div className="pages">
                     <div className="ipgs">
                         <img className='pgimg' src={`/imgs/2/2-${l}.jpg`} alt="" />
+                    </div>
+                    <div className="ipgs-m" >
+                        <img className='pgimg' src={`/imgs/2/2-${m}.jpg`} alt="" />
                     </div>
                     <div className="ipgs">
                         <img className='pgimg' src={`/imgs/2/2-${r}.jpg`} alt="" />

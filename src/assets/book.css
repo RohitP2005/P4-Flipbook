@@ -23,9 +23,7 @@ button{
     max-width: 100%; /* Limit the image's width to the container's width */
     height: auto;   /* Allow the height to adjust to maintain the aspect ratio */
   }
-.pages > div{
-    width: 49%;
-}
+
 
 
 
@@ -61,11 +59,17 @@ span{
   justify-content: center;
   flex-direction: row;
 }
+.pages > div{
+  width: 49%;
+}
 .container-flid{
   margin-left: 2%;
 }
 .down{
   margin-right: 2%;
+}
+.ipgs-m{
+  display: none;
 }
 }
 @media screen and (orientation: portrait) {
@@ -75,6 +79,11 @@ span{
   display: flex;
   margin-left: 36%;
   flex-direction: row;
+}
+.pages{
+  display: flex;
+  justify-content: center;
+  width:60%
 }
 
 .container-flid{
@@ -86,5 +95,8 @@ span{
 }
 .down{
   margin-right: 2%;
+}
+.ipgs{
+  display: none;
 }
 }
